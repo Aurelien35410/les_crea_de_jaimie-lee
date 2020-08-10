@@ -1,0 +1,182 @@
+body{
+  margin: 0;
+  background-color: pink;
+}
+
+#menu_principal{
+  padding: 5px;
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 100;
+}
+
+#logo a{
+  text-decoration: none;
+  font-family: 'Pacifico', cursive;
+  color: pink;
+}
+
+#categorie_menu a{
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: pink;
+  padding: 20px;
+  font-size: 24px;
+}
+
+#categorie_menu a:hover{
+  font-weight: bolder;
+  border-bottom: 1px solid pink;
+}
+
+#shop_menu a {
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  color: pink;
+  padding-right: 50px;
+  font-size: 24px;
+}
+
+#shop_menu a:hover{
+  font-weight: bolder;
+}
+
+#home_content{
+  background-image: url(img/couture_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+#home_content h1{
+  font-family: 'Pacifico', cursive;
+  color: pink;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  padding-top: 500px;
+}
+
+#about-content{
+  padding-top: 150px;
+  background-color: pink;
+}
+
+#about-content h1{
+  font-family: 'Lato', sans-serif;
+  color: palevioletred;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+#about-content p{
+  font-family: 'Lato', sans-serif;
+  color: palevioletred;
+  font-size: 24px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+#about-content img{
+  margin: auto;
+}
+
+#about-content-element{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#gallerie-content{
+  padding-top: 150px;
+  background-color: pink;
+}
+
+#gallerie-content h1{
+  font-family: 'Lato', sans-serif;
+  color: palevioletred;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+}
+
+#carouselExampleIndicators{
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+#form-content{
+  background-color: pink;
+  padding-bottom: 100px;
+}
+
+#form-content h1{
+  font-family: 'Lato', sans-serif;
+  color: palevioletred;
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+}
+
+#form-content form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  margin: auto;
+}
+
+#form-content label{
+  font-family: 'Lato', sans-serif;
+  color: palevioletred;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+#form-content input{
+  border: 1px solid palevioletred;
+  color: palevioletred;
+  margin-bottom: 20px;
+}
+
+#form-content textarea{
+  border: 1px solid palevioletred;
+  color: palevioletred;
+  margin-bottom: 20px;
+}
+
+.footer_content{
+  color: pink;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer_content a{
+  color: pink;
+}
+
+.footer_content a:hover{
+  text-decoration: none;
+  font-weight: bolder;
+  color: pink;
+}
+
+#footer-global{
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
